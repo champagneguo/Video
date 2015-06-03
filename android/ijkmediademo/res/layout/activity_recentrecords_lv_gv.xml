@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/activity_recentrecords_lv_gv_image"
+            android:layout_width="155dp"
+            android:layout_height="98dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/activity_recentrecords_lv_gv_image_nor"
+            android:layout_width="155dp"
+            android:layout_height="98dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/video_nor"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/activity_recentrecords_lv_gv_image_sel"
+            android:layout_width="155dp"
+            android:layout_height="98dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/video_sel"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text=""
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="7dp"
+                    android:src="@drawable/video_broadcast" />
+
+                <TextView
+                    android:id="@+id/activity_recentrecords_lv_gv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:text="TextView"
+                    android:textColor="#eceaea"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/activity_recentrecords_lv_gv_name"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="我的视频.mp4"
+        android:textColor="#3d3d3d"
+        android:textSize="14sp" />
+
+</LinearLayout>

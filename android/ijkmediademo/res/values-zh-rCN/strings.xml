@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">视频</string>
+    <!-- The Mainmenu Activity -->
+    <string name="activity_mainmenu_video">视频</string>
+    <string name="activity_mainmenu_login">未登录</string>
+    <string name="activity_mainmenu_localvideos">本地视频</string>
+    <string name="activity_mainmenu_recentplay">最近播放</string>
+    <string name="activity_mainmenu_total">共</string>
+    <string name= "activity_mainmenu_item">个</string>
+    <!-- The Local Videos Activity -->
+    <string name="activity_moviescontent_localvideso">本地视频</string>
+    <string name="activity_moviescontent_edit">编辑</string>
+    <string name="activity_moviescontent_cancle">取消</string>
+    <string name="activity_moviescontent_selectall">全选</string>
+    <string name="activity_moviescontent_deselectall">取消全选</string>
+    <string name="activity_moviescontent_delete">删除</string>
+    <!-- The Recent Play Activity -->
+    <string name="activity_recentrecords_recentplay">播放历史</string>
+    <string name="activity_recentrecords_edit">编辑</string>
+    <string name="activity_recentrecords_cancle">取消</string>
+    <string name="activity_recentrecords_selectall">全选</string>
+    <string name="activity_recentrecords_deselectall">取消全选</string>
+    <string name="activity_recentrecords_delete">删除</string>
+    <string name="buffering">缓存中</string>
+
+</resources>

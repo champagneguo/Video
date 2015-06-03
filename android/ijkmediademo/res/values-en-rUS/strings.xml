@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NTVideo</string>
+    <!-- The Mainmenu Activity -->
+    <string name="activity_mainmenu_video">Videos</string>
+    <string name="activity_mainmenu_login">No Logging</string>
+    <string name="activity_mainmenu_localvideos">Local Videos</string>
+    <string name="activity_mainmenu_recentplay">Recent Play</string>
+    <string name="activity_mainmenu_total">Total:</string>
+    <string name="activity_mainmenu_item">item(s)</string>
+    <!-- The Local Videos Activity -->
+    <string name="activity_moviescontent_localvideso">Local Videos</string>
+    <string name="activity_moviescontent_edit">Edit</string>
+    <string name="activity_moviescontent_cancle">Cancle</string>
+    <string name="activity_moviescontent_selectall">Select All</string>
+    <string name="activity_moviescontent_deselectall">Deselect All</string>
+    <string name="activity_moviescontent_delete">Delete</string>
+    <!-- The Recent Play Activity -->
+    <string name="activity_recentrecords_recentplay">Recent Play</string>
+    <string name="activity_recentrecords_edit">Edit</string>
+    <string name="activity_recentrecords_cancle">Cancle</string>
+    <string name="activity_recentrecords_selectall">Select All</string>
+    <string name="activity_recentrecords_deselectall">Deselect All</string>
+    <string name="activity_recentrecords_delete">Delete</string>
+    <string name="buffering">buffering</string>
+
+</resources>

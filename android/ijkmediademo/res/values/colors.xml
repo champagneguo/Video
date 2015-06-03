@@ -1,0 +1,7 @@
+<resources>
+
+    <color name="black">#66000000</color>
+    <color name="normal">#ffffff</color>
+    <color name="pressed">#ebebeb</color>
+
+</resources>
